@@ -34,4 +34,5 @@ servant         ansible_ssh_host=127.0.0.1 voice=bruce
 second_watchman ansible_ssh_host=127.0.0.1 voice=zarvox
 third_watchman  ansible_ssh_host=127.0.0.1 voice=fred
 first_musician  ansible_ssh_host=127.0.0.1 voice=junior
-page            ansible_ssh_host=127.0.0.1 voice=ralp
+page            ansible_ssh_host=127.0.0.1 voice=ralph
+
