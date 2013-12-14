@@ -31,7 +31,7 @@ In the hosts file, change the host addresses to computers you wish to enlist:
 
 Now, when ready, start the performance.  
 
-    ansible-playbook romeo_and_juliet.yml -i hosts -c ssh
+    ansible-playbook romeo_and_juliet.yml -i hosts -c ssh --ask-sudo-pass
  
 Your computer lab will spring to life, performing Shakespeare, in computerized voices from Cuppertino.
 

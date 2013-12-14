@@ -1,3 +1,10 @@
+- hosts: all
+  gather_facts: False
+  sudo: True
+  tasks:
+    - name: turn up the volume on all machines
+      shell:  osascript -e "set Volume 10"
+ 
 - include: act01/act.yml
 - include: act02/act.yml
 - include: act03/act.yml
