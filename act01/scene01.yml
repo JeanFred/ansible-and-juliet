@@ -1,0 +1,821 @@
+- hosts: sampson
+  vars:
+    speech: |
+      Gregory, o' my word, we'll not carry coals.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      No, for then we should be colliers.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      I mean, an we be in choler, we'll draw.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      Ay, while you live, draw your neck out o' the collar.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      I strike quickly, being moved.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      But thou art not quickly moved to strike.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      A dog of the house of Montague moves me.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      To move is to stir; and to be valiant is to stand:
+      therefore, if thou art moved, thou runn'st away.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      A dog of that house shall move me to stand: I will
+      take the wall of any man or maid of Montague's.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      That shows thee a weak slave; for the weakest goes
+      to the wall.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      True; and therefore women, being the weaker vessels,
+      are ever thrust to the wall: therefore I will push
+      Montague's men from the wall, and thrust his maids
+      to the wall.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      The quarrel is between our masters and us their men.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      'Tis all one, I will show myself a tyrant: when I
+      have fought with the men, I will be cruel with the
+      maids, and cut off their heads.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      The heads of the maids?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Ay, the heads of the maids, or their maidenheads;
+      take it in what sense thou wilt.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      They must take it in sense that feel it.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Me they shall feel while I am able to stand: and
+      'tis known I am a pretty piece of flesh.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      'Tis well thou art not fish; if thou hadst, thou
+      hadst been poor John. Draw thy tool! here comes
+      two of the house of the Montagues.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      My naked weapon is out: quarrel, I will back thee.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      How! turn thy back and run?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Fear me not.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      No, marry; I fear thee!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Let us take the law of our sides; let them begin.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      I will frown as I pass by, and let them take it as
+      they list.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Nay, as they dare. I will bite my thumb at them;
+      which is a disgrace to them, if they bear it.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: abraham
+  vars:
+    speech: |
+      Do you bite your thumb at us, sir?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      I do bite my thumb, sir.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: abraham
+  vars:
+    speech: |
+      Do you bite your thumb at us, sir?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      (hey Greg) Is the law of our side, if I say
+      ay?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      No.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      No, sir, I do not bite my thumb at you, sir, but I
+      bite my thumb, sir.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      Do you quarrel, sir?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: abraham
+  vars:
+    speech: |
+      Quarrel sir! no, sir.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      If you do, sir, I am for you: I serve as good a man as you.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: abraham
+  vars:
+    speech: |
+      No better.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Well, sir.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: gregory
+  vars:
+    speech: |
+      Say 'better:' here comes one of my master's kinsmen.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Yes, better, sir.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: abraham
+  vars:
+    speech: |
+      You lie.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: sampson
+  vars:
+    speech: |
+      Draw, if you be men. Gregory, remember thy swashing blow.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: all
+  vars:
+    speech: FIGHT!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Part, fools!
+      Put up your swords; you know not what you do.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: tybalt
+  vars:
+    speech: |
+      What, art thou drawn among these heartless hinds?
+      Turn thee, Benvolio, look upon thy death.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      I do but keep the peace: put up thy sword,
+      Or manage it to part these men with me.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: tybalt
+  vars:
+    speech: |
+      What, drawn, and talk of peace! I hate the word,
+      As I hate hell, all Montagues, and thee:
+      Have at thee, coward!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio:tybalt:abraham:sampson:gregory
+  vars:
+    speech: |
+      RABBLE!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: first_citizen
+  vars:
+    speech: |
+      Clubs, bills, and partisans! strike! beat them down!
+      Down with the Capulets! down with the Montagues!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: capulet
+  vars:
+    speech: |
+      What noise is this? Give me my long sword, ho!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: lady_capulet
+  vars:
+    speech: |
+      A crutch, a crutch! why call you for a sword?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: capulet
+  vars:
+    speech: |
+      My sword, I say! Old Montague is come,
+      And flourishes his blade in spite of me.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      Thou villain Capulet,--Hold me not, let me go.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: lady_montague
+  vars:
+    speech: |
+      Thou shalt not stir a foot to seek a foe.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: prince
+  vars:
+    speech: |
+      Rebellious subjects, enemies to peace,
+      Profaners of this neighbour-stained steel,--
+      Will they not hear? What, ho! you men, you beasts,
+      That quench the fire of your pernicious rage
+      With purple fountains issuing from your veins,
+      On pain of torture, from those bloody hands
+      Throw your mistemper'd weapons to the ground,
+      And hear the sentence of your moved prince.
+      Three civil brawls, bred of an airy word,
+      By thee, old Capulet, and Montague,
+      Have thrice disturb'd the quiet of our streets,
+      And made Verona's ancient citizens
+      Cast by their grave beseeming ornaments,
+      To wield old partisans, in hands as old,
+      Canker'd with peace, to part your canker'd hate:
+      If ever you disturb our streets again,
+      Your lives shall pay the forfeit of the peace.
+      For this time, all the rest depart away:
+      You Capulet; shall go along with me:
+      And, Montague, come you this afternoon,
+      To know our further pleasure in this case,
+      To old Free-town, our common judgment-place.
+      Once more, on pain of death, all men depart.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      Who set this ancient quarrel new abroach?
+      Speak, nephew, were you by when it began?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Here were the servants of your adversary,
+      And yours, close fighting ere I did approach:
+      I drew to part them: in the instant came
+      The fiery Tybalt, with his sword prepared,
+      Which, as he breathed defiance to my ears,
+      He swung about his head and cut the winds,
+      Who nothing hurt withal hiss'd him in scorn:
+      While we were interchanging thrusts and blows,
+      Came more and more and fought on part and part,
+      Till the prince came, who parted either part.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: lady_montague
+  vars:
+    speech: |
+      O, where is Romeo? saw you him to-day?
+      Right glad I am he was not at this fray.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Madam, an hour before the worshipp'd sun
+      Peer'd forth the golden window of the east,
+      A troubled mind drave me to walk abroad;
+      Where, underneath the grove of sycamore
+      That westward rooteth from the city's side,
+      So early walking did I see your son:
+      Towards him I made, but he was ware of me
+      And stole into the covert of the wood:
+      I, measuring his affections by my own,
+      That most are busied when they're most alone,
+      Pursued my humour not pursuing his,
+      And gladly shunn'd who gladly fled from me.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      Many a morning hath he there been seen,
+      With tears augmenting the fresh morning dew.
+      Adding to clouds more clouds with his deep sighs;
+      But all so soon as the all-cheering sun
+      Should in the furthest east begin to draw
+      The shady curtains from Aurora's bed,
+      Away from the light steals home my heavy son,
+      And private in his chamber pens himself,
+      Shuts up his windows, locks far daylight out
+      And makes himself an artificial night:
+      Black and portentous must this humour prove,
+      Unless good counsel may the cause remove.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      My noble uncle, do you know the cause?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      I neither know it nor can learn of him.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Have you importuned him by any means?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      Both by myself and many other friends:
+      But he, his own affections' counsellor,
+      Is to himself--I will not say how true--
+      But to himself so secret and so close,
+      So far from sounding and discovery,
+      As is the bud bit with an envious worm,
+      Ere he can spread his sweet leaves to the air,
+      Or dedicate his beauty to the sun.
+      Could we but learn from whence his sorrows grow.
+      We would as willingly give cure as know.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      See, where he comes: so please you, step aside;
+      I'll know his grievance, or be much denied.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: montague
+  vars:
+    speech: |
+      I would thou wert so happy by thy stay,
+      To hear true shrift. Come, madam, let's away.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Good-morrow, cousin.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Is the day so young?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      But new struck nine.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Ay me! sad hours seem long.
+      Was that my father that went hence so fast?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      It was. What sadness lengthens Romeo's hours?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Not having that, which, having, makes them short.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      In love?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Out--
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Of love?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Out of her favour, where I am in love.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Alas, that love, so gentle in his view,
+      Should be so tyrannous and rough in proof!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Alas, that love, whose view is muffled still,
+      Should, without eyes, see pathways to his will!
+      Where shall we dine? O me! What fray was here?
+      Yet tell me not, for I have heard it all.
+      Here's much to do with hate, but more with love.
+      Why, then, O brawling love! O loving hate!
+      O any thing, of nothing first create!
+      O heavy lightness! serious vanity!
+      Mis-shapen chaos of well-seeming forms!
+      Feather of lead, bright smoke, cold fire,
+      sick health!
+      Still-waking sleep, that is not what it is!
+      This love feel I, that feel no love in this.
+      Dost thou not laugh?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      No, coz, I rather weep.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Good heart, at what?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      At thy good heart's oppression.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Why, such is love's transgression.
+      Griefs of mine own lie heavy in my breast,
+      Which thou wilt propagate, to have it prest
+      With more of thine: this love that thou hast shown
+      Doth add more grief to too much of mine own.
+      Love is a smoke raised with the fume of sighs;
+      Being purged, a fire sparkling in lovers' eyes;
+      Being vex'd a sea nourish'd with lovers' tears:
+      What is it else? a madness most discreet,
+      A choking gall and a preserving sweet.
+      Farewell, my coz.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Soft! I will go along;
+      An if you leave me so, you do me wrong.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Tut, I have lost myself; I am not here;
+      This is not Romeo, he's some other where.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Tell me in sadness, who is that you love.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      What, shall I groan and tell thee?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Groan! why, no.
+      But sadly tell me who.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Bid a sick man in sadness make his will:
+      Ah, word ill urged to one that is so ill!
+      In sadness, cousin, I do love a woman.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      I aim'd so near, when I supposed you loved.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      A right good mark-man! And she's fair I love.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      A right fair mark, fair coz, is soonest hit.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      Well, in that hit you miss: she'll not be hit
+      With Cupid's arrow; she hath Dian's wit;
+      And, in strong proof of chastity well arm'd,
+      From love's weak childish bow she lives unharm'd.
+      She will not stay the siege of loving terms,
+      Nor bide the encounter of assailing eyes,
+      Nor ope her lap to saint-seducing gold:
+      O, she is rich in beauty, only poor,
+      That when she dies with beauty dies her store.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Then she hath sworn that she will still live chaste?
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      She hath, and in that sparing makes huge waste,
+      For beauty starved with her severity
+      Cuts beauty off from all posterity.
+      She is too fair, too wise, wisely too fair,
+      To merit bliss by making me despair:
+      She hath forsworn to love, and in that vow
+      Do I live dead that live to tell it now.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      Be ruled by me, forget to think of her.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      O, teach me how I should forget to think.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      By giving liberty unto thine eyes;
+      Examine other beauties.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: romeo
+  vars:
+    speech: |
+      'Tis the way
+      To call hers exquisite, in question more:
+      These happy masks that kiss fair ladies' brows
+      Being black put us in mind they hide the fair;
+      He that is strucken blind cannot forget
+      The precious treasure of his eyesight lost:
+      Show me a mistress that is passing fair,
+      What doth her beauty serve, but as a note
+      Where I may read who pass'd that passing fair?
+      Farewell: thou canst not teach me to forget.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
+- hosts: benvolio
+  vars:
+    speech: |
+      I'll pay that doctrine, or else die in debt.
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}"
+
